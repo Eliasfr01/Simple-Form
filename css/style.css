@@ -1,0 +1,55 @@
+body {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+p, label {
+  color: #fff;
+}
+
+.form-body {
+  background-color: rgba(0, 0, 0, 0.8156862745);
+  border-radius: 30px;
+  width: 450px;
+  height: auto;
+}
+
+.img-position {
+  text-align: center !important;
+}
+
+.img-size {
+  width: 180px;
+}
+
+.aling-button {
+  text-align: center !important;
+}
+
+.footer {
+  text-align: center;
+}
+
+.icons {
+  color: white;
+  font-size: 30px;
+}
+
+.edit-button {
+  color: #00ffff;
+  border: 1px solid #00ffff;
+}
+.edit-button:hover {
+  background-color: #00ffff;
+  color: #000;
+}
+
+@media (max-width: 483px) {
+  .form-body {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
